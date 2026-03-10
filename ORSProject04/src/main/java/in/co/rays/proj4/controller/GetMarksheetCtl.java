@@ -27,7 +27,7 @@ import in.co.rays.proj4.utility.ServletUtility;
  * result to the appropriate view.
  * </p>
  *
- * @author Krati
+ * @author saket
  */
 @WebServlet(name = "GetMarksheetCtl", urlPatterns = { "/ctl/GetMarksheetCtl" })
 public class GetMarksheetCtl extends BaseCtl {

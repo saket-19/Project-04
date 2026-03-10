@@ -104,6 +104,12 @@
 
 	<b>|</b>
 	<a href="<%=ORSView.LOGIN_CTL%>?operation=<%=LoginCtl.OP_LOG_OUT%>"><b>Logout</b></a>
+	<b>|</b>
+	<a href="<%=ORSView.TRANSPORT_LIST_CTL%>"><b>Transport List</b></a>
+	<b>|</b>
+
+	<a href="<%=ORSView.TRANSPORT_CTL%>"><b>Add Transport</b></a>
+	<b>|</b>
 
 	<%
 	}

@@ -233,5 +233,20 @@ public interface ORSView {
 	// -----------------------------------------------------------
 	// Department Module
 	// -----------------------------------------------------------
+	// -----------------------------------------------------------
+	// Transport Module
+	// -----------------------------------------------------------
+
+	/** Transport View JSP */
+	public String TRANSPORT_VIEW = PAGE_FOLDER + "/TransportView.jsp";
+
+	/** Transport Controller URL */
+	public String TRANSPORT_CTL = APP_CONTEXT + "/ctl/TransportCtl";
+
+	/** Transport List JSP */
+	public String TRANSPORT_LIST_VIEW = PAGE_FOLDER + "/TransportListView.jsp";
+
+	/** Transport List Controller URL */
+	public String TRANSPORT_LIST_CTL = APP_CONTEXT + "/ctl/TransportListCtl";
 
 }

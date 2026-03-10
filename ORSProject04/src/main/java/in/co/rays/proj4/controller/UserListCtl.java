@@ -27,7 +27,7 @@ import in.co.rays.proj4.utility.ServletUtility;
  * 
  * Displays list of users and processes list-related actions.
  * 
- * @author Krati
+ * @author saket
  */
 @WebServlet(name = "UserListCtl", urlPatterns = { "/ctl/UserListCtl" })
 public class UserListCtl extends BaseCtl {

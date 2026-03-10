@@ -29,7 +29,7 @@ import in.co.rays.proj4.utility.ServletUtility;
  * This controller extends BaseCtl and manages form validation, bean population,
  * and request handling for GET and POST.
  *
- * @author Krati
+ * @author saket
  * @version 1.0
  */
 @WebServlet(name = "CourseCtl", urlPatterns = { "/ctl/CourseCtl" })
