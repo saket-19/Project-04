@@ -21,8 +21,7 @@ import in.co.rays.proj4.utility.DataUtility;
 import in.co.rays.proj4.utility.DataValidator;
 import in.co.rays.proj4.utility.PropertyReader;
 import in.co.rays.proj4.utility.ServletUtility;
-
-@WebServlet("/ComplaintCtl")
+@WebServlet(name = "ComplaintCtl", urlPatterns = { "/ctl/ComplaintCtl" })
 public class ComplaintCtl extends BaseCtl{
 	@Override
 	protected boolean validate(HttpServletRequest request) {

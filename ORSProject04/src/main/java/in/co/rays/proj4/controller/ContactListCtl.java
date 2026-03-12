@@ -19,7 +19,7 @@ import in.co.rays.proj4.utility.DataUtility;
 import in.co.rays.proj4.utility.PropertyReader;
 import in.co.rays.proj4.utility.ServletUtility;
 
-@WebServlet("/ContactListCtl")
+@WebServlet(name = "ContactListCtl", urlPatterns = { "/ctl/ContactListCtl" })
 public class ContactListCtl extends BaseCtl {
 	@Override
 	protected BaseBean populateBean(HttpServletRequest request) {

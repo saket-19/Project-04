@@ -15,8 +15,7 @@ import in.co.rays.proj4.utility.DataUtility;
 import in.co.rays.proj4.utility.DataValidator;
 import in.co.rays.proj4.utility.PropertyReader;
 import in.co.rays.proj4.utility.ServletUtility;
-
-@WebServlet("/TrainerCtl")
+@WebServlet(name = "TrainerCtl", urlPatterns = { "/ctl/TrainerCtl" })
 public class TrainerCtl extends BaseCtl{
 	    @Override
 	    protected boolean validate(HttpServletRequest request) {

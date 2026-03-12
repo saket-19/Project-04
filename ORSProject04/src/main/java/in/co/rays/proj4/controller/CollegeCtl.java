@@ -27,7 +27,7 @@ import in.co.rays.proj4.utility.ServletUtility;
  * 
  * URL pattern: /ctl/CollegeCtl
  * 
- * Author: Krati
+ * Author:Saket 
  * Version: 1.0
  */
 @WebServlet(name = "CollegeCtl", urlPatterns = { "/ctl/CollegeCtl" })

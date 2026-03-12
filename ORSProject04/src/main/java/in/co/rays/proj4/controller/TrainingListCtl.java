@@ -14,7 +14,8 @@ import in.co.rays.proj4.model.TrainingModel;
 import in.co.rays.proj4.utility.DataUtility;
 import in.co.rays.proj4.utility.ServletUtility;
 
-@WebServlet("/TrainingListCtl")
+
+@WebServlet(name = "TrainingListCtl", urlPatterns = { "/ctl/TrainingListCtl" })
 public class TrainingListCtl extends BaseCtl {
 
     @Override

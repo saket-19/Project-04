@@ -17,7 +17,7 @@ import in.co.rays.proj4.utility.DataValidator;
 import in.co.rays.proj4.utility.PropertyReader;
 import in.co.rays.proj4.utility.ServletUtility;
 
-@WebServlet("/LeadCtl")
+@WebServlet(name = "LeadCtl", urlPatterns = { "/ctl/LeadCtl" })
 public class LeadCtl extends BaseCtl {
 
     // -------------------- Validation --------------------

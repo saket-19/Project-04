@@ -17,7 +17,7 @@ import in.co.rays.proj4.utility.DataValidator;
 import in.co.rays.proj4.utility.PropertyReader;
 import in.co.rays.proj4.utility.ServletUtility;
 
-@WebServlet("/TrackingCtl")
+@WebServlet(name = "TrackingCtl", urlPatterns = { "/ctl/TrackingCtl" })
 public class TrackingCtl extends BaseCtl {
 
     @Override

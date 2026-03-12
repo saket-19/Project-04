@@ -249,4 +249,92 @@ public interface ORSView {
 	/** Transport List Controller URL */
 	public String TRANSPORT_LIST_CTL = APP_CONTEXT + "/ctl/TransportListCtl";
 
+	/** ================= MEETING ================= */
+
+	/** Meeting View JSP */
+	public String MEETING_VIEW = PAGE_FOLDER + "/MeetingView.jsp";
+
+	/** Meeting Controller URL */
+	public String MEETING_CTL = APP_CONTEXT + "/ctl/MeetingCtl";
+
+	/** Meeting List JSP */
+	public String MEETING_LIST_VIEW = PAGE_FOLDER + "/MeetingListView.jsp";
+
+	/** Meeting List Controller URL */
+	public String MEETING_LIST_CTL = APP_CONTEXT + "/ctl/MeetingListCtl";
+
+	/** ================= LEAD ================= */
+
+	public String LEAD_VIEW = PAGE_FOLDER + "/LeadView.jsp";
+
+	public String LEAD_CTL = APP_CONTEXT + "/ctl/LeadCtl";
+
+	public String LEAD_LIST_VIEW = PAGE_FOLDER + "/LeadListView.jsp";
+
+	public String LEAD_LIST_CTL = APP_CONTEXT + "/ctl/LeadListCtl";
+
+	/** ================= COMPLAINT ================= */
+
+	public String COMPLAINT_VIEW = PAGE_FOLDER + "/ComplaintView.jsp";
+
+	public String COMPLAINT_CTL = APP_CONTEXT + "/ctl/ComplaintCtl";
+
+	public String COMPLAINT_LIST_VIEW = PAGE_FOLDER + "/ComplaintListView.jsp";
+
+	public String COMPLAINT_LIST_CTL = APP_CONTEXT + "/ctl/ComplaintListCtl";
+
+	/** ================= CONTACT ================= */
+
+	public String CONTACT_VIEW = PAGE_FOLDER + "/ContactView.jsp";
+
+	public String CONTACT_CTL = APP_CONTEXT + "/ctl/ContactCtl";
+
+	public String CONTACT_LIST_VIEW = PAGE_FOLDER + "/ContactListView.jsp";
+
+	public String CONTACT_LIST_CTL = APP_CONTEXT + "/ctl/ContactListCtl";
+
+	/** ================= TRAINING ================= */
+
+	public String TRAINING_VIEW = PAGE_FOLDER + "/TrainingView.jsp";
+
+	public String TRAINING_CTL = APP_CONTEXT + "/ctl/TrainingCtl";
+
+	public String TRAINING_LIST_VIEW = PAGE_FOLDER + "/TrainingListView.jsp";
+
+	public String TRAINING_LIST_CTL = APP_CONTEXT + "/ctl/TrainingListCtl";
+
+	/** ================= TRACKING ================= */
+
+	public String TRACKING_VIEW = PAGE_FOLDER + "/TrackingView.jsp";
+
+	public String TRACKING_CTL = APP_CONTEXT + "/ctl/TrackingCtl";
+
+	public String TRACKING_LIST_VIEW = PAGE_FOLDER + "/TrackingListView.jsp";
+
+	public String TRACKING_LIST_CTL = APP_CONTEXT + "/ctl/TrackingListCtl";
+
+	/** ================= TRAINER ================= */
+
+	public String TRAINER_VIEW = PAGE_FOLDER + "/TrainerView.jsp";
+
+	public String TRAINER_CTL = APP_CONTEXT + "/ctl/TrainerCtl";
+
+	public String TRAINER_LIST_VIEW = PAGE_FOLDER + "/TrainerListView.jsp";
+
+	public String TRAINER_LIST_CTL = APP_CONTEXT + "/ctl/TrainerListCtl";
+	
+	/** ================= BANNER ================= */
+
+	/** Banner View JSP */
+	public String BANNER_VIEW = PAGE_FOLDER + "/BannerView.jsp";
+
+	/** Banner Controller URL */
+	public String BANNER_CTL = APP_CONTEXT + "/ctl/BannerCtl";
+
+	/** Banner List JSP */
+	public String BANNER_LIST_VIEW = PAGE_FOLDER + "/BannerListView.jsp";
+
+	/** Banner List Controller URL */
+	public String BANNER_LIST_CTL = APP_CONTEXT + "/ctl/BannerListCtl";
+
 }

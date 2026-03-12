@@ -15,8 +15,7 @@ import in.co.rays.proj4.model.ContactModel;
 import in.co.rays.proj4.model.CourseModel;
 import in.co.rays.proj4.utility.DataUtility;
 import in.co.rays.proj4.utility.ServletUtility;
-
-@WebServlet("/ContactCtl")
+@WebServlet(name = "ContactCtl", urlPatterns = { "/ctl/ContactCtl" })
 public class ContactCtl extends BaseCtl{
 	protected BaseBean populateBean(HttpServletRequest request) {
 

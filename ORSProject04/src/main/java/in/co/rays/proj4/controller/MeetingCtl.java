@@ -17,7 +17,7 @@ import in.co.rays.proj4.utility.DataUtility;
 import in.co.rays.proj4.utility.DataValidator;
 import in.co.rays.proj4.utility.PropertyReader;
 import in.co.rays.proj4.utility.ServletUtility;
-@WebServlet("/MeetingCtl")
+@WebServlet(name = "MeetingCtl", urlPatterns = { "/ctl/MeetingCtl" })
 public class MeetingCtl extends BaseCtl{
 	
 

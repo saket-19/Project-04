@@ -14,8 +14,7 @@ import in.co.rays.proj4.exception.ApplicationException;
 import in.co.rays.proj4.model.MeetingModel;
 import in.co.rays.proj4.utility.DataUtility;
 import in.co.rays.proj4.utility.ServletUtility;
-
-@WebServlet("/MeetingListCtl")
+@WebServlet(name = "MeetingListCtl", urlPatterns = { "/ctl/MeetingListCtl" })
 public class MeetingListCtl extends BaseCtl{
 	
 	    protected void doGet(HttpServletRequest request, HttpServletResponse response)

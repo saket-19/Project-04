@@ -16,7 +16,7 @@ import in.co.rays.proj4.utility.DataUtility;
 import in.co.rays.proj4.utility.PropertyReader;
 import in.co.rays.proj4.utility.ServletUtility;
 
-@WebServlet("/TrainerListCtl")
+@WebServlet(name = "TrainerListCtl", urlPatterns = { "/ctl/TrainerListCtl" })
 public class TrainerListCtl extends BaseCtl{
 	    @Override
 	    protected void preload(HttpServletRequest request) {

@@ -15,7 +15,7 @@ import in.co.rays.proj4.model.BannerModel;
 import in.co.rays.proj4.utility.DataUtility;
 import in.co.rays.proj4.utility.PropertyReader;
 import in.co.rays.proj4.utility.ServletUtility;
-@WebServlet("/BannerListCtl")
+@WebServlet(name = "BannerListCtl", urlPatterns = { "/ctl/BannerListCtl" })
 public class BannerListCtl extends BaseCtl{
 
 	    @Override

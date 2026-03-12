@@ -28,7 +28,7 @@ import in.co.rays.proj4.utility.ServletUtility;
  * 
  * URL pattern: /ctl/ChangePasswordCtl
  * 
- * Author: Krati
+ * Author: Saket
  * Version: 1.0
  */
 @WebServlet(name = "ChangePasswordCtl", urlPatterns = { "/ctl/ChangePasswordCtl" })

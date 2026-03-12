@@ -101,14 +101,76 @@
 	<b>|</b>
 	<a href="<%=ORSView.CHANGE_PASSWORD_CTL%>"><b>change password</b></a>
 	<b>|</b>
-
-	<b>|</b>
-	<a href="<%=ORSView.LOGIN_CTL%>?operation=<%=LoginCtl.OP_LOG_OUT%>"><b>Logout</b></a>
-	<b>|</b>
 	<a href="<%=ORSView.TRANSPORT_LIST_CTL%>"><b>Transport List</b></a>
 	<b>|</b>
 
 	<a href="<%=ORSView.TRANSPORT_CTL%>"><b>Add Transport</b></a>
+	<b>|</b>
+
+	<b>|</b>
+	<a href="<%=ORSView.LOGIN_CTL%>?operation=<%=LoginCtl.OP_LOG_OUT%>"><b>Logout</b></a>
+	<!-- Meeting -->
+	<b>|</b>
+	<a href="<%=ORSView.MEETING_LIST_CTL%>"><b>Meeting List</b></a>
+	<b>|</b>
+
+	<a href="<%=ORSView.MEETING_CTL%>"><b>Add Meeting</b></a>
+	<b>|</b>
+
+
+	<!-- Lead -->
+	<a href="<%=ORSView.LEAD_LIST_CTL%>"><b>Lead List</b></a>
+	<b>|</b>
+
+	<a href="<%=ORSView.LEAD_CTL%>"><b>Add Lead</b></a>
+	<b>|</b>
+
+
+	<!-- Complaint -->
+	<a href="<%=ORSView.COMPLAINT_LIST_CTL%>"><b>Complaint List</b></a>
+	<b>|</b>
+
+	<a href="<%=ORSView.COMPLAINT_CTL%>"><b>Add Complaint</b></a>
+	<b>|</b>
+
+
+	<!-- Contact -->
+	<a href="<%=ORSView.CONTACT_LIST_CTL%>"><b>Contact List</b></a>
+	<b>|</b>
+
+	<a href="<%=ORSView.CONTACT_CTL%>"><b>Add Contact</b></a>
+	<b>|</b>
+
+
+	<!-- Training -->
+	<a href="<%=ORSView.TRAINING_LIST_CTL%>"><b>Training List</b></a>
+	<b>|</b>
+
+	<a href="<%=ORSView.TRAINING_CTL%>"><b>Add Training</b></a>
+	<b>|</b>
+
+
+	<!-- Tracking -->
+	<a href="<%=ORSView.TRACKING_LIST_CTL%>"><b>Tracking List</b></a>
+	<b>|</b>
+
+	<a href="<%=ORSView.TRACKING_CTL%>"><b>Add Tracking</b></a>
+	<b>|</b>
+
+
+	<!-- Trainer -->
+	<a href="<%=ORSView.TRAINER_LIST_CTL%>"><b>Trainer List</b></a>
+	<b>|</b>
+
+	<a href="<%=ORSView.TRAINER_CTL%>"><b>Add Trainer</b></a>
+	<b>|</b>
+
+
+	<!-- Banner -->
+	<a href="<%=ORSView.BANNER_LIST_CTL%>"><b>Banner List</b></a>
+	<b>|</b>
+
+	<a href="<%=ORSView.BANNER_CTL%>"><b>Add Banner</b></a>
 	<b>|</b>
 
 	<%
