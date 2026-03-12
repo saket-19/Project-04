@@ -193,17 +193,12 @@ public interface ORSView {
 	// -----------------------------------------------------------
 
 	/** Timetable View JSP */
-	public String TIMETABLE_VIEW = PAGE_FOLDER + "/TimetableView.jsp";
+	public String TIMETABLE_VIEW = PAGE_FOLDER + "/TimeTableView.jsp";
 
 	/** Timetable Controller URL */
 	public String TIMETABLE_CTL = APP_CONTEXT + "/ctl/TimeTableCtl";
 
-	/** Timetable List JSP */
-	public String TIMETABLE_LIST_VIEW = PAGE_FOLDER + "/TimeTableListView.jsp";
-
-	/** Timetable List Controller URL */
-	public String TIMETABLE_LIST_CTL = APP_CONTEXT + "/ctl/TimeTableListCtl";
-
+	
 	// -----------------------------------------------------------
 	// Faculty Module
 	// -----------------------------------------------------------
